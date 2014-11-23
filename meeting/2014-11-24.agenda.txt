@@ -1,0 +1,39 @@
+Project Software
+Team 5
+Agenda meeting 2014-11-23
+
+Previous meeting: 2014-11-20
+
+Attendance required:
+	Affan
+	Bernard
+	Marwan
+	+ 1
+
+Chair: Bernard
+Scribe: Affan
+
+Material required:
+	The Vault hardware
+	1 arduino kit per attendee
+	1+ copy of Roel Grit's Project Management
+
+Action Items:
+	1 Draft project plan & project risks per attendee
+
+Reading material:
+	Decimal decoder chips / Binary-coded Decimal
+	Slides introduction Project Software
+	Project Management chapter 5 "Drawing up a project plan"
+
+Issue summary:
+	Approval minutes previous meeting
+	Approval of agenda
+	One of our team members not officially listed
+	Vault design choices:
+	 - 7segment display setup
+	 - controls
+	 - construction of box
+	 - reprogramming GUI
+	Division of work Project Plan
+	

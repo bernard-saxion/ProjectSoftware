@@ -9,10 +9,10 @@ Attendance required:
 	Affan
 	Bernard
 	Marwan
-	+ 1
+	Mohammed
 
 Chair: Bernard
-Scribe: Affan
+Scribe: Mohammed
 
 Material required:
 	The Vault hardware
@@ -30,7 +30,7 @@ Reading material:
 Issue summary:
 	Approval minutes previous meeting
 	Approval of agenda
-	One of our team members not officially listed on blackboard
+	Mohammed not officially listed on blackboard
 	Vault design choices:
 	 - 7segment display setup
 	 - controls

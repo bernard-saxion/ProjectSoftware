@@ -22,7 +22,7 @@ Material required:
 
 Action Items:
 	1 Draft project plan & project risks per attendee
-	All members should search the web and collect information to get an adea about the project.
+	All members should search the web and collect information to get an idea about the project.
 
 Reading material:
 	Decimal decoder chips / Binary-coded Decimal
@@ -39,6 +39,7 @@ Issue summary:
 	 - construction of box
 	 - reprogramming GUI
 	Division of work Project Plan
+	Datetime of next meeting
 
 After the meeting we will work on the project plan
 

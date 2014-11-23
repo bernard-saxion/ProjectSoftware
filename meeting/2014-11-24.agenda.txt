@@ -1,6 +1,7 @@
 Project Software
 Team 5
 Agenda meeting 2014-11-23
+https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-11-24.agenda.txt
 
 Previous meeting: 2014-11-20
 
@@ -29,7 +30,7 @@ Reading material:
 Issue summary:
 	Approval minutes previous meeting
 	Approval of agenda
-	One of our team members not officially listed
+	One of our team members not officially listed on blackboard
 	Vault design choices:
 	 - 7segment display setup
 	 - controls

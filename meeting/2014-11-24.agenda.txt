@@ -1,6 +1,6 @@
 Project Software
 Team 5
-Agenda meeting 2014-11-23
+Agenda meeting 2014-11-23 T 10h45 - 13h15
 https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-11-24.agenda.txt
 
 Previous meeting: 2014-11-20
@@ -18,9 +18,11 @@ Material required:
 	The Vault hardware
 	1 arduino kit per attendee
 	1+ copy of Roel Grit's Project Management
+	1 Laptop per attendee
 
 Action Items:
 	1 Draft project plan & project risks per attendee
+	All members should search the web and collect information to get an adea about the project.
 
 Reading material:
 	Decimal decoder chips / Binary-coded Decimal
@@ -37,4 +39,6 @@ Issue summary:
 	 - construction of box
 	 - reprogramming GUI
 	Division of work Project Plan
-	
+
+After the meeting we will work on the project plan
+

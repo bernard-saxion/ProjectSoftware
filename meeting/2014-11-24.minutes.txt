@@ -1,0 +1,26 @@
+Meeting 2
+24/11/2014
+
+1- Every member of the group attended.
+2- We got the material requirements ready.
+3- Mohammed should add the contact list to the first meeting notes.
+4- Solving the problem of listing Mohammed to the blackboard .
+5- The housing will just include a simple design.
+6- To decided if we are going to use three 7 segments display or two, we should lookup which is more safety to use ( Marwan in charge ). As well we have to lookup which is more easy to make ( Bernard in charge). 
+7- We have to look up if it's possible to control each 7 segments display separately, by using the rotary encoder.
+8- We won't have graphical user interface in our project because we don't have enough time for doing it, and it's difficult.
+
+
+
+9- Starting the project plan by dividing the work:
+Mohammed will write the project organization.
+Marwan will write the project risks / acceptance test.
+Affan will write about the results and the activities of the project.
+Bernard will write the planning and collect all the documents  together at the end. 
+10- Every member have to submit his work Tuesday before midnight to Bernard.
+11- Next meeting is on Thursday, at 10:00.
+
+
+Kind regards,
+Mohammed
+

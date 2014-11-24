@@ -1,5 +1,5 @@
 \documentclass[twoside,a4paper,11pt,titlepage]{report}
-\author{ Team 5 Affan Bernard  Marwar  Lead Designer }
+\author{ Team 5 Affan Bernard  Marwar Mohammed }
 \title{Project Software --- Project plan}
 \begin{document}
 \maketitle
@@ -7,17 +7,25 @@
 \chapter{Result}
 We are Team 5 of class EEL1IB, Saxion Enschede, in our second quarter we will be making a Vault using the Arduino platform for Project Software. This document details our initial plans.
 
-\begin{tabular}[hbp]{lr}
-\hline Importance & Requirement \\
-\hline
-\hline Must have & 7 segment displays \\
- & Arduino \\
- & knob \\
-\hline Should have & Box \\
- & Reprogramming interface \\
- & Audal feedback \\
-\hline Could have & Intrusion detection \\
-\hline Won't have & GUI \\
+\begin{tabular}[hbp]{lll}
+\hline Importance & Issue & Requirement \\ \hline
+\hline Must have
+& \#3 & The box can only be opened with the correct cipher \\
+& \#4 & Cipher is encoded as a three-digit number or as three two-digit numbers \\
+& \#5 & Cipher to unlock box is entered with a rotary encoder \\
+& \#6 & The cipher being entered is displayed on a set of seven-segment displays \\
+& \#7 & The system is implemented on the arduino microcontroller platform \\
+& \#8 & Seven-segment displays are driven with one or more shift registers \\
+& \#9 & Lock is secured with a servo \\
+\hline Should have
+& \#1 & System provides an enclosed box \\
+& \#2 & The box is lockable \\
+\hline Could have
+& \#10 & There is some form of audal feedback to the user \\
+& \#11 & The cipher may be changed through the serial communication \\
+& \#12 & The cipher may not be changed when the box is locked \\
+\hline Won't have
+& \#13 & Changing the cipher is done through a graphical user interface \\
 \hline
 \end{tabular}
 
@@ -28,10 +36,10 @@ We have a lot to do.
 We organised ourselves.
 
 \begin{description}
-	\item[Scribe] Affan
+	\item[Lead designer] Affan
 	\item[Chair] Bernard
 	\item[Hardware specialist] Marwan
-	\item[Lead designer]
+	\item[Scribe] Mohammed
 \end{description}
 \chapter{Planning}
 We foresaw deadlines.

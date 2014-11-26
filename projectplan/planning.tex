@@ -1,0 +1,47 @@
+\chapter{Planning}
+As can be seen in figure \ref{fig:gantt}, the tasks are largely planned consecutively as dictated by the V-Model\cite{vmodel}. We do slightly deviate from the V-Model by running continuous tests alongside development instead of after every submodule has been completed.
+
+Looking at the team's competence in various fields, we expect the design and implementation of software to take longer than that of hardware, so the software tasks have been allocated extra time and resources. Members are allotted one task at a time so that they may truely focus on all the new material they have to tackle. The maximal concurrent tasks that this project then can handle is four, however the inexperience of the project members also discourages that any member works alone on a task, so then the optimal concurrency is reduced to two tasks at any one time. Nevertheless, most often we will have three tasks being executed at once, so that if one finishes earlier than anticipated the members that are done can be redistributed to the tasks that may be taking longer.
+
+Every delivery deadline\footnote{All deadlines are Wednesdays 23h59} is marked as a milestone in figure \ref{fig:gantt}. The phases of the V-Model are denoted by the groups.
+
+\begin{figure}[hpb]
+\centering
+\begin{gantt}{19}{8}
+	\begin{ganttitle}
+		\titleelement{2}{1}
+		\titleelement{3}{1}
+		\titleelement{4}{1}
+		\titleelement{5}{1}
+		\titleelement{VAK}{1}
+		\titleelement{VAK}{1}
+		\titleelement{6}{1}
+		\titleelement{7}{1}
+	\end{ganttitle}
+
+	\ganttbar{Project plan}{0}{1}
+	\ganttbar{System acceptance test}{0}{1}
+	\ganttmilestone{Project setup}{1}
+
+	\ganttgroup{Design documents}{1}{2}
+	\ganttbar{Interface design}{1}{1}
+	\ganttbar{Integration test}{1}{1}
+	\ganttbar{Software flowchart}{1}{2}
+	\ganttbar{Hardware schematic}{2}{1}
+	\ganttbar{Subsystem tests}{2}{1}
+	\ganttmilestone{Technical Design}{3}
+
+	\ganttgroup{Implementation}{3}{4}
+	\ganttbar{Programming}{3}{4}
+	\ganttbar{Soldering}{3}{3}
+	\ganttbar{Building housing}{6}{1}
+	\ganttbar{System testing}{3}{4}
+	\ganttmilestone{Product Delivery}{7}
+
+	\ganttbar{Reflection}{7}{1}
+	\ganttmilestone{Project Finish}{8}
+\end{gantt}
+\caption{Gantt chart of the project activities}
+\label{fig:gantt}
+\end{figure}
+

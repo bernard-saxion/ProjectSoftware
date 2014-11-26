@@ -1,0 +1,34 @@
+\chapter{Project activities}
+The V-Model dictates\cite{vmodel} that the project should be completed after four phases: Functional and Technical Design; Implementation; Unit and Integration Testing; and finally the Site Acceptance Tests. We have chosen to sligtly deviate from the V-Model, however, and will complete the project after two phases: The Functional and Technical Design phase and the Implementation and System testing phase.
+
+The reason for deviating from the V-Model is that by running continuous tests during the implementation phase, errors may be caught and corrected much earlier than with the conventional model. This, we predict, is critical for the project to succeed with such an unexperienced team.
+
+Our activities during the Functional and Technical Design phase then are as as listed in list \ref{lst:designactivities}. All of the activities produce documents, which will be collected and compiled into a grand Design Document which will be sent to the client for review.
+
+The activities during the Implementation and Testing phase largely depend on our findings during the Design phase, but a high-level overview of the activities is given in list \ref{lst:implementationactivities}.
+
+\begin{figure}
+\caption{List of activities for the Design phase}
+\begin{description}
+\item[Interface design] The interface design details the connections between the Arduino and its peripheral hardware like the display so that the peripheral hardware and the arduino's software may be produced independantly. The vault's user interface is described here too, which will provide some layout constraints to the rest of the hardware.
+\item[Integration tests] The integration tests will be able to determine at any point during development wether or not a subsystem is able to interface with the other subsystem(s) it will be connected to.
+\item[Software flowcharts] The software flowcharts will detail the various subsystems within the software subsystem, specify what their purpose is, and how they are to be implemented.
+\item[Hardware schematics] The hardware schematics will detail the various subsystems within the hardware subsystem, specify what their function is, and how they are to be built.
+\item[Subsystem tests] The subsystem tests will be able to determine at any point during development wether or not a (sub-)subsystem satisfies its purpose.
+\end{description}
+\label{lst:designactivities}
+\end{figure}
+
+\begin{figure}
+\caption{List of activities for the Implementation phase}
+\begin{description}
+\item[Programming of subsystems] The subsystems identified by the Software flowcharts are to be implemented so they can run on the Arduino. The subsystems will include tasks such as decoding the output of the rotary encoder, writing out state information onto the displays, and so on.
+\item[Wiring and Soldering of subsystems] The subsystems identified by the Hardware schematics are to be built so that they can send and receive their signals to and from the Arduino. The subsystems will be one or more circuit boards with wired connections between them.
+\item[Building the housing] For the vault to be able to secure its contents, a solid enclosure must be built. It will follow the user interface design for as much as that was specified.
+\item[System testing] Continuous testing of all subsystems being worked on during the implementation phase will ensure interoperability with other subsystems and makes it easy to see when something is finished or when it needs more work.
+\end{description}
+\label{lst:implementationactivities}
+\end{figure}
+
+After the implementation phase and when the end product has been demoed, a final report will be produced to reflect on the project for educational purposes. It will contain critiques on the functioning of all team members, detail what went wrong and what opportunities were seized and how all of this will affect our future projects.
+

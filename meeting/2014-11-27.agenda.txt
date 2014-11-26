@@ -1,6 +1,6 @@
 Project Software
 Team 5
-Agenda meeting 2014-11-23 T 10h00 - 10h30
+Agenda meeting 2014-11-23 T 10h30 - 11h00
 Location: Wolvencamp
 https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-11-27.agenda.txt
 
@@ -17,7 +17,7 @@ Scribe: Mohammed
 
 Material required:
 	The Vault hardware
-	1 arduino kit per attendee
+	An arduino
 	1 laptop per attendee
 
 Action items:
@@ -31,6 +31,8 @@ Issue summary:
 	Approval minutes previous meeting
 	Approval of agenda
 	Project plan quality
+	Project plan review
+	System acceptance test
 	Division of work Design phase
 	Datetime of next meeting
 

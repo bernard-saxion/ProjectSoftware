@@ -1,0 +1,36 @@
+Project Software
+Team 5
+Agenda meeting 2014-11-23 T 10h00 - 10h30
+Location: Wolvencamp
+https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-11-27.agenda.txt
+
+Previous meeting 2014-11-24
+
+Attendance required:
+	Affan
+	Bernard
+	Marwan
+	Mohammed
+
+Chair: Bernard
+Scribe: Mohammed
+
+Material required:
+	The Vault hardware
+	1 arduino kit per attendee
+	1 laptop per attendee
+
+Action items:
+	Mohammed should add the contact list to the first meeting notes.
+	Solving the problem of listing Mohammed to the blackboard .
+	Project plan is finished and submitted by Bernard (Wednesday 23h59)
+	Marwan has researched whether or not the three-digit display or the two-digit display is more secure.
+	Bernard has researched whether the three-digit display or the two-digit display is easier to build.
+
+Issue summary:
+	Approval minutes previous meeting
+	Approval of agenda
+	Project plan quality
+	Division of work Design phase
+	Datetime of next meeting
+

@@ -1,0 +1,37 @@
+Project Software
+Team 5
+Agenda meeting 2014-12-01 T 11h45 - 12h15
+Location: W2.08
+https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-12-01.agenda.txt
+
+Previous meeting: 2014-11-27
+
+Attendance required:
+	Affan
+	Bernard
+	Marwan
+	Mohammed
+
+Chair: Bernard
+Scribe: Mohammed
+
+Material required:
+	Vault hardware
+	an arduino
+	pencil and paper for every attendee
+	a laptop for every attendee
+
+Action items:
+	Supervisor asked to list Mohammed on blackboard
+	Acceptance test rewritten (Marwan)
+	Start on the hardware schematics (Affan, Mohammed)
+	Start on subsystem tests (Bernard)
+	Start on flowcharts (Marwan)
+
+Issue summary:
+	Approval of minutes previous meeting
+	Approval of agenda
+	Status review action items
+	Vault design
+	Datetime next meeting
+

@@ -1,0 +1,23 @@
+Thursday- Meeting (3)
+2014-11-27 T 10h45
+
+1. Affan join us a bit late.
+2. First action item was solve (adding the contact list to the note of meeting 1).
+3. Second action item still not clear, we have to ask the supervisor (listing Mohammed to the blackboard).
+4. Project plan is done and already submitted by Bernard (Wednesday 23:00).
+5. Marwan found that using three 7 segment display is safer.
+6. Bernard found that, using three 7 segment display is more easier to built in the software, although a bit more difficult in hardware. In addition, it is safer because if you have any problem you can easily go back and use the two 7 segment display.
+7. Next project it would be a good idea to write the project plan by one person, because all chapters have to be connected.
+8. Marwan in charge to rewrite the acceptance test in details.
+
+9. Next week the group have to work through the hardware schematic, sub system test and start with the flowchart.
+10. Affan and Mohammed in charge to make the hardware schematic.
+11. Bernard in charge to do the sub system test.
+12. Marwan in charge to just start drawing the flowchart. Later on all members will complete. 
+13. Mohammed and Affan have to look up the way to wire up the shift register, 7 segment display and Binary to decimal decoder. 
+14. Project plan review was good.
+15. Next meeting Monday at 11:45 in room W2.08. The goals is the check up the work.
+
+Kind regards,
+Mohammed  
+

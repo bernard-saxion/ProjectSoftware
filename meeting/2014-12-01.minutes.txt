@@ -1,0 +1,24 @@
+Monday- Meeting (4)
+1/12/2014
+
+12:00
+
+1. Every member attended.
+2. Mohammed is officially listed to blackboard.
+3. Marwan finished the acceptance test.
+4. Affan and Mohammed made the schematic of shift register, PCD and 7 segment display. Remaining the rotary encoder and servor (more likely to be done tonight).
+5. Marwan didn't start with the flowchart yet. He have to start with it, and send it to all members, to check the work as soon as possible. 
+6. We have to know what to do with the push buttons, to add it to the schematic.
+7. We discussed the way we have to use the push buttons and the rotary encoder. 
+
++------------------------+
+|                        | 
+|     _______    green * |
+|     |4|8|7|            |
+|                 red  * |
+|        @               |
+|                        |
++------------------------+
+
+8. Next meeting Thursday at 10:30. The goals is the check the work.
+

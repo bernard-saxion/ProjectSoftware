@@ -1,13 +1,13 @@
 \chapter{Project results}
 We are Team 5 of class EEL1IB, Saxion Enschede, in our second quarter we will be making a Vault using the Arduino platform for Project Software. This document details our initial plans for review by our client, the Acedemie Lifescience, Engineering, and Design, represented by Christiaen Slot, Ali Yuksel, Erik Karstens, and Andre Fiselier.
 
-The goal of this project is to make a vault where for example money or documents may be stored safely at home, secured by a cipher. The project must be completely finished by Wednesday 14th of January 2015. The client detailed us the requirements (table \ref{tab:userrequirements}), which we have triaged into Must have, Should have, Could have, and Won't have (MoSCoW).
+The goal of this project is to make a vault where for example money or documents may be stored safely at home, secured by a cipher. The project must be completely finished by Wednesday 14th of January 2015. The client detailed us the requirements (table \ref{tbl:userrequirements}), which we have triaged into Must have, Should have, Could have, and Won't have (MoSCoW).
 
 The end product should satisfy all requirements, but we will not expend any effort in creating a graphical user interface because we have little experience with it and we expect fulfilling the other requirements will take up most of our time. Thus we predict that by discarding Issue $\#14$ the end product will be of superior quality and the chance of missing the deadline severely reduced. If time allows, we will produce a document detailing the Application Programmer's Interface to which the discarded Graphical User Interface may be easily produced by a more experienced team.
 
 \begin{table}
 \centering
-\caption{User requirements and their priority.}
+\caption{User requirements and their priority \label{tbl:userrequirements}}
 \begin{adjustwidth}{-1in}{1in}
 \begin{tabular}{lrl}
 \\
@@ -18,8 +18,6 @@ Importance & Issue & Requirement \\ \hline
 & \#5 & Cipher to unlock the housing is entered with a rotary encoder \\
 & \#6 & The cipher being entered is displayed on a set of seven-segment displays \\
 & \#7 & The system is implemented on the arduino microcontroller platform \\
-& \#8 & Seven-segment displays are driven with one or more shift registers \\
-& \#9 & Lock is secured with a servo \\
 & \#10 & Push button shifts to another seven segment to be controlled \\
 & \#16 & The system should be able to operate under living-room conditions \\
 \hline Should have
@@ -34,31 +32,29 @@ Importance & Issue & Requirement \\ \hline
 & \#14 & Changing the cipher is done through a graphical user interface \\
 \end{tabular}
 \end{adjustwidth}
-\label{tab:userrequirements}
 \end{table}
 
-The final results of this project are listed in table \ref{tab:vmodeldeliverables} and will be demoed at the end of the project, these inlude the deliverables that the V-Model dictates. The deadline for each deliverable are detailed in Chapter 4.
+The final results of this project are listed in table \ref{tbl:deliverables} and will be demoed at the end of the project, these inlude the deliverables that the V-Model dictates. The deadline for each deliverable are detailed in Chapter 4.
 
 \begin{table}
 \centering
-\begin{adjustwidth}{-0.5in}{0.5in}
+\begin{adjustwidth}{-1in}{1in}
 \centering
-\caption{List of deliverables}
-\begin{tabular}{lll}
-Issue & Deliverable & Conforms to \\
+\caption{List of deliverables \label{tbl:deliverables}}
+\begin{tabular}{rlll}
+\# & Deliverable & Conforms to & Activity  \\
 \hline
-\#17 & Project Plan & V-Model\cite{vmodel}, Grit (Chapter 5)\cite{grit} \\
-\#18 & System acceptance test & V-Model\cite{vmodel}, Project Plan \\
-\#19 & Software flow chart & Project Plan, UML\cite{uml} \\
-\#20 & Hardware schematics & Project Plan \\
-\#21 & Integration tests & V-Model\cite{vmodel}, Flow chart, Schematic \\
-\#22 & Unit tests & V-Model\cite{vmodel}, Flow chart, Schematic \\
-\#23 & Reflection \\
-\#24 & Argumentation of choices \\
-\#25 & Working prototype & Unit tests, Integration tests, System test \\
-\#26 & Application Programmer's Interface \\
+1 & Project Plan & V-Model\cite{vmodel}, Grit (Chapter 5)\cite{grit}  & \#17 \\
+2 & System acceptance test & V-Model\cite{vmodel}, Project Plan  & \#18 \\
+3 & Software flow chart & Project Plan, UML\cite{uml}  & \#19 \\
+4 & Hardware schematics & Project Plan  & \#20 \\
+5 & Integration tests & V-Model\cite{vmodel}, Flow chart, Schematic  & \#21 \\
+6 & Unit tests & V-Model\cite{vmodel}, Flow chart, Schematic  & \#22 \\
+7 & Reflection  && \#23 \\
+8 & Argumentation of choices  && \#24 \\
+9 & Working prototype & Unit tests, Integration tests, System test  & \#25 \\
+10 & Application Programming Interface  && \#26 \\
 \end{tabular}
 \end{adjustwidth}
-\label{tab:vmodeldeliverables}
 \end{table}
 

@@ -5,9 +5,9 @@ Looking at the team's competence in various fields, we expect the design and imp
 
 Every delivery deadline\footnote{All deadlines are Wednesdays 23h59} is marked as a milestone in figure \ref{fig:gantt}. The phases of the V-Model are denoted by the groups.
 
-\begin{figure}[hpb]
+\begin{figure}
 \centering
-\begin{gantt}{19}{8}
+\begin{gantt}{20}{8}
 	\begin{ganttitle}
 		\titleelement{2}{1}
 		\titleelement{3}{1}
@@ -20,13 +20,15 @@ Every delivery deadline\footnote{All deadlines are Wednesdays 23h59} is marked a
 	\end{ganttitle}
 
 	\ganttbar{Project plan}{0}{1}
-	\ganttbar{System acceptance test}{0}{1}
+	\ganttbar{Site acceptance test}{0}{1}
+	\ganttbarcon[pattern=crosshatch]{}{1}{0.5}
+
 	\ganttmilestone{Project setup}{1}
 
 	\ganttgroup{Design documents}{1}{2}
 	\ganttbar{Hardware schematic}{1}{1}
 	\ganttbar{Subsystem tests}{1}{1}
-	\ganttbar{Software flowchart}{1}{2}
+	\ganttbar{Software flowchart}{1.5}{1.5}
 	\ganttbar{Interface design}{2}{1}
 	\ganttbar{Integration test}{2}{1}
 	\ganttmilestone{Technical Design}{3}

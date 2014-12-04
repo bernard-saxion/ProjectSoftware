@@ -1,0 +1,54 @@
+\documentclass[oneside,a4paper,11pt,titlepage,openany]{report}
+
+\author{
+Affan Al Hakam \and 
+Berend Al \and
+Marwan Al-Zadjali \and
+Mohammed Musalhi \and
+\\
+Saxion Enschede \\
+Acedemy Lifescience, Engineering, and Design \\
+Class EEL1IB --- Team 5
+}
+\title{Project Software --- Site Acceptance Test\\\normalsize Version 0.3}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\listoffigures
+
+\abstract
+The V-Model\cite{vmodel} dictates that a Site Acceptance Test should be created as a contract between the developer and the client. It should specify in detail what kind of behaviour an acceptable system displays and what must be done when the system is not acceptable. The behaviour described in the acceptance test should bear a direct relation to the User Requirements listed in the Project Plan\cite{plan}.
+
+\chapter{Acceptance criteria}
+The system will be tested according to the acceptance criteria in the list below. For each criteria, the system will be rated with the boolean designators 'Satisfactory` or 'Not Satisfactory` by the client. The system is then rated an acceptance level, which is defined as in figure \ref{fig:acceptancelevel}, and is a percentage. If the acceptance level is $100\%$, team 5 should be rewarded the maximum number of points for the delivery of the system, if the acceptance level is lower than $100\%$, the rewarded points should be scaled down respectively. If the acceptance level is $55\%$ or more, the system is 'Acceptable`, if it is any lower the system is 'Unacceptable` and either a new deadline should be negotiated for the delivery of an acceptable system, or the team and the client should agree to have no points rewarded for the delivery of the system.
+
+\begin{figure}[hp]
+\centering
+$AcceptanceLevel = {100 \times {NrOfTestsDeemedSatisfactory \over NrOfTests}}$
+\caption{Definition of the acceptance level\label{fig:acceptancelevel}}
+\end{figure}
+
+\begin{description}
+\item[Secured by cipher] We going to check more than one code and test if our code is the only one that open the lock. If any other cipher than the programmed one opens the lock, the system will not satisfy, if only the programmed cipher opens the lock, the system is satisfactory.
+\item[Input] We are going to check if the rotary encoder display the all numbers start with 000 ends with 999. If one can input all these numbers, the system is satisfactory, if one or more numbers cannot be chosen, the system does not satisfy.
+\item[Display] Check if the 7segment, for example, lights up the right numbers. If three numbers are displayed legibly any time the system is powered the system is satisfactory, if the system, while powered, cannot display three numbers at once or the numbers are unclear the system does not satisfy.
+\item[Arduino]The system must be implemented on the Arduino microcontroller platform. If the system uses any other microcontroller in place of or alongside the Arduino, the system is not satisfactory. If the system makes no use of the Arduino platform, the system is not satisfactory. In all other cases the system is satisfactory.
+\item[Operating environment]The system must be able to operate during a winter's day in any of the second-floor classrooms of Saxion Enschede, which will be regarded as typical living-room conditions. The system may require mains to operate. If the system cannot operate under these conditions, the system does not satisfy, otherwise the system is satisfactory.
+\item[Enclosure] Test if there is no way to open the housing when it is locked. If the contents stored inside the vault can be accessed in any way whilst locked and without damaging the enclosure, the system does not satisfy. If the cipher can be changed while the vault is locked, the system does not satisfy. If the enclosure has to be damaged to access the contents, the system is satisfactory.
+\item[Size]The vault must be able to store some valuables. The vault is satisfactory if it is at able to hold least twenty $A4$ pages of a document (folded to fit), four $50$-eurocent coins and a key for one of Saxion's lockers. If the enclosure cannot hold all of these items at once, the system does not satisfy.
+\item[Locking] The vault must be lockable. Enter the correct cipher to open the vault, close the vault again. The system must now provide a way to lock the vault again, either automatically or through some action from the user, for example by means of pressing a button. If the system cannot be locked without the use of unrelated digital tools such as laptop computers, the system does not satisfy. If the system can be locked again after being opened without loss of functionality the system is satisfactory.
+\item[Audal feedback]The system will at least provide some form audal feedback, like a series of bleeps, when an incorrect cipher is entered. If the user is warned in this manner after having entered an incorrect cipher the system is satisfactory. If a blinded user cannot determine if the (incorrect) cipher was noticed by the system the system does not satisfy. 
+\item[Changing the cipher]Check if the cipher change through serial communication. A laptop computer must be able to connect to the Arduino's serial USB interface. A connected laptop computer should be able to change the programmed cipher by sending data conforming to the API\footnote{The system's API has not yet been written, but it is one of the deliverables described in the project plan\cite{plan}}. If any number between 0 and 999 can be programmed as the system's cipher this way, the system is satisfactory. If a laptop computer cannot connect, if there is no API, or when not all specified numbers are available for programming, the system does not satisfy.
+\item[Cipher retention]The cipher must never change unless explicitly commanded so by the user or the user's laptop computer. Program in a nondefault cipher, disconnect the Arduino to the power supply and reconnect it five or more seconds later, if after this procedure the lock can still be opened with the nondefault cipher, and the default cipher does not open the lock, the system is satisfactory. If instead the default cipher opens the lock, the system is not satisfactory.
+\item[V-Model]Check if the group followed the V-Model\cite{vmodel}. When all the deliverables of the V-Model have been delivered to the client, the project is satisfactory, when one or more have never been delivered the project does not satisfy. 
+\item[Deadline]If the system is delivered before or on the deadline\cite{plan}, the project is satisfactory. Any later and the project is not satisfactory.
+\item[User interface]Changing the cipher must be done through a graphical user interface. If changing the cipher is possible by sole use of a pointer device, without assistance from the keyboard the system is satisfactory. If a keyboard is required for this task the system does not satisfy. The interface may accept assistance from a keyboard device, but it may not be required.
+\end{description}
+
+\begin{thebibliography}{99}
+\bibitem{plan}Team 5's project plan for this project, as accepted by the client.
+\bibitem{vmodel}The subset of the V-Model as used for this project, described by the slides on blackboard and discussed in the project plan\cite{plan}.
+\end{thebibliography}
+
+\end{document}

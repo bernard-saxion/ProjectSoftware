@@ -7,26 +7,27 @@ Subject: Review work past week
 https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-12-04.agenda.txt
 
 Attendance required:
-	359751 . Affan Al Hakam
-	405759 . Berend Al
-	350231 . Marwan Al-Zadjali
-	402566 . Mohammed Musalhi
+	359751 : Affan Al Hakam
+	405759 : Berend Al
+	350231 : Marwan Al-Zadjali
+	402566 : Mohammed Musalhi
 
 Chair: Berend
 Scribe: Mohammed
 
 Material required:
-	1 laptop per attendee
+	- 1 laptop per attendee
 
 Action items:
-	Affan and Mohammed finish schematics (rotary encoder, buttons, speaker)
-	Marwan made some flowcharts
+	- Affan and Mohammed finish schematics (rotary encoder, buttons, speaker)
+	- Marwan made some flowcharts
+	- Version 2 of Project Plan submitted (Berend)
 	
 Issues:
 	0. Announcements
 	1. Approval of minutes previous meeting
 	2. Approval of agenda
 	3. Review work of past week
-	4. Unplanned topics
+	4. Unannounced issues
 	5. Datetime next meeting
 

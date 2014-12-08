@@ -1,9 +1,7 @@
-OBJS:=sat.tex
-
 sat.pdf: ${OBJS}
 
-%.dvi: ${OBJS}
-	latex ${OBJS}
+%.dvi: %.tex
+	latex $<
 
 %.ps: %.dvi
 	dvips $<

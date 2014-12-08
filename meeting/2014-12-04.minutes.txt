@@ -1,0 +1,12 @@
+Thursday- Meeting (5)                                      4/12/2014
+
+10:30
+
+1. One member is not attended ( Marwan )
+2. We have to follow new way to organize the meetings. As Mr.Bollen teach us.
+3. The leader submit the project plan and the acceptance test.
+4. Subsystem test is almost finish and we have to submit it this week.
+5. We faced some problems of drawing the rotary encoder schematic.
+6. The BCD only have 7 pins, so we can't use the "dot".
+7. How to compliance the shift register and the BCD.
+

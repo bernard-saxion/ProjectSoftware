@@ -1,0 +1,31 @@
+Project Software
+Team 5
+Agenda meeting 2014-12-04 T 11h45 - 12h15
+Location: W2.08
+Subject: Upcoming deadline designs
+
+https://github.com/bernard-saxion/ProjectSoftware/blob/master/meeting/2014-12-08.agenda.txt
+
+Attendance required:
+	359751 : Affan Al Hakam
+	405759 : Berend Al
+	350231 : Marwan Al-Zadjali
+	402566 : Mohammed Musalhi
+
+Chair: Berend
+Scribe: Mohammed
+
+Material required:
+	- 1 laptop per attendee
+	- Printed hardware schematics
+
+Issues:
+	0. Announcements
+	1. Approval of minutes previous meeting
+	2. Approval of agenda
+	3. Compliance shift registers and BCD
+	4. Progress flowcharts
+	5. Design deadlines wednesday
+	6. Unannounced issues
+	7. Datetime next meeting
+

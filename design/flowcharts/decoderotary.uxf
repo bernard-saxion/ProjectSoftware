@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.ActivityDiagramText</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+title:Decode rotary
+Start
+Rising edge\on terminal A
+Poll\Terminal B
+If
+	[B is high]
+	Increase Cipher Input..
+
+	[B is low]
+	Decrease Cipher Input..
+EndIf
+End
+
+Start
+Increase/Decrease\Cipher Input
+Fork
+	[Increase]
+	If
+		[Input = 999]
+		Set back to 0
+
+		[Input less than\or equal to 999]
+		Increase by one
+	EndIf
+		
+	[Decrease]
+		[Input = 0]
+		Set to 999
+
+		[Input &gt; 999]
+		Decrease by one
+	EndIf
+Sync
+	
+End
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

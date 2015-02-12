@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}Project results}{4}
+\contentsline {chapter}{\numberline {2}Project activities}{6}
+\contentsline {chapter}{\numberline {3}Project organisation}{9}
+\contentsline {section}{\numberline {3.1}Team members}{9}
+\contentsline {section}{\numberline {3.2}Supervision}{10}
+\contentsline {section}{\numberline {3.3}How meetings are organized}{10}
+\contentsline {section}{\numberline {3.4}Office hours}{10}
+\contentsline {section}{\numberline {3.5}Communication}{10}
+\contentsline {chapter}{\numberline {4}Planning}{12}
+\contentsline {chapter}{\numberline {5}Risks}{14}
+\contentsline {section}{\numberline {5.1}Project scope}{14}
+\contentsline {section}{\numberline {5.2}Project planning}{14}
+\contentsline {section}{\numberline {5.3}Market}{15}
+\contentsline {section}{\numberline {5.4}Materials}{15}
+\contentsline {section}{\numberline {5.5}Facilities and tools}{15}
+\contentsline {section}{\numberline {5.6}People}{15}

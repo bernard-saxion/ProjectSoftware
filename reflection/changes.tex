@@ -1,0 +1,23 @@
+\chapter{Changes}
+
+Some changes have been made to the design during implementation, these changes are listed by subsystem with a motivation of why they were changed.
+
+\section{decoding rotary}
+The rotary decoder was soldered onto an RC circuit on recommendation of our coaches to reduce debouncing, while the circuit had some beneficial effect, it was not enough to prevent bouncing alltogether.
+The code for the rotary decoder no longer uses interrupts but does polling instead.
+This was done to avoid the incessant debouncing issues with the rotary decoder, which persisted even after having resoldered everything onto a RC circuit.
+
+\section{Speaker}
+The speaker code does not play a melody but plays a single tone instead.
+During testing, single tones already proved effective in providing audal feedback, so much that melodies were deemed innecessary.
+
+\section{Display code}
+Multistage input and display blinking has not been implemented because of limited time.
+
+\section{Seven-segment displays}
+One set of headers was dropped since they lacked clear purpose.
+The dotpins were omitted from the headers since they did not seem to get any use, reducing the amount of wiring necessary.
+
+\section{Binary Decimal Coders}
+The BCDs were produced, but are not used in the final product because we miraculously have enough pins to wire everything up without them and the code to do the conversion was already written.
+

@@ -2,7 +2,7 @@
 \title{Subsystem tests}
 \author{Bernard}
 \begin{document}
-\chapter{Software}
+\chapter{Software subsystem list}
 \begin{description}
 \item Decode rotary
 \item lock signal to servo
@@ -13,6 +13,30 @@
 \item set cipher from serial
 \item make sounds
 \item status leds
+\end{description}
+
+\chapter{Hardware subsystem list}
+\begin{description}
+\item Servo wiring
+\item Speaker
+\item Speaker wiring
+\item Seven Segment displays
+\item Seven segment wiring
+\item Shift registers wiring
+\item BCD wiring
+\item buttons wiring
+\end{description}
+
+\chapter{Hardware subsystem tests}
+\section{Servo wiring}
+The following shall hold:
+\begin{description}
+\item There are no less and no more than three wires.
+\item One wire is black.
+\item One wire is red.
+\item One wire is neither black nor red.
+\item None of the wires shall have a resistance of more than 1 OHM across its terminals.
+\item Pins are provided to plug into the servo's receptors.
 \end{description}
 \end{document}
 

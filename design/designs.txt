@@ -1,0 +1,14 @@
+./design.pdf
+./flowcharts/serial.pdf
+./flowcharts/decoderotary.pdf
+./flowcharts/flowchart-speaker.pdf
+./flowcharts/flowchart.pdf
+./flowcharts/flowchart-servo.pdf
+./schematics/servo-multisim.xps.pdf
+./schematics/speaker-ultiboard.xps.pdf
+./schematics/Multism and ultiboard.pdf
+./schematics/Servor-ultiboard.xps.pdf
+./schematics/buttons-ultiboard.xps.pdf
+./schematics/buttons-multisim.xps.pdf
+./schematics/speaker-multisim.xps.pdf
+./designdocument.pdf

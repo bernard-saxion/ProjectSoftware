@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}Project Reflection}{3}
+\contentsline {section}{\numberline {1.1}Affan Al Hakam}{3}
+\contentsline {section}{\numberline {1.2}Berend Al}{3}
+\contentsline {section}{\numberline {1.3}Marwan Al-Zadjali}{4}
+\contentsline {section}{\numberline {1.4}Mohammed Musalhi}{4}
+\contentsline {chapter}{\numberline {2}Personal Reflection}{5}
+\contentsline {section}{\numberline {2.1}Affan Al Hakam}{5}
+\contentsline {section}{\numberline {2.2}Berend Al}{5}
+\contentsline {section}{\numberline {2.3}Marwan Al-Zadjali}{6}
+\contentsline {section}{\numberline {2.4}Mohammed Musalhi}{6}
+\contentsline {chapter}{\numberline {3}Changes}{8}
+\contentsline {section}{\numberline {3.1}decoding rotary}{8}
+\contentsline {section}{\numberline {3.2}Speaker}{8}
+\contentsline {section}{\numberline {3.3}Display code}{8}
+\contentsline {section}{\numberline {3.4}Seven-segment displays}{8}
+\contentsline {section}{\numberline {3.5}Binary Decimal Coders}{9}
